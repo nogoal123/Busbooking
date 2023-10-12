@@ -1,0 +1,143 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@500&family=Roboto+Mono:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat",sans-serif;
+}
+
+body{
+    background-image: url(logo2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+section{
+    padding: 20px 50px;
+    font-family: 'montserrat',sans-serif;
+    color: #fff;
+}
+header{
+    align-items: center;
+    padding: 1px 12px;
+    background: rgba(0, 0, 0, .1);
+    backdrop-filter: blur(25px);
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1000;
+}
+header .text{
+    transform: bolt;
+    color: #fcf9f9;
+    font-size: 30px;
+    font-weight: 100px;
+    padding: 0 0.1px;
+    margin-right: auto;
+}
+.logo img{
+    width: 45px;
+}
+.logo{
+    margin-right: auto;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-flex;
+    padding: 0 5px;
+    margin: 0%;
+    text-transform: uppercase;
+}
+.nav_links li a:hover{
+    color: black;
+    text-decoration: underline;
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a{
+    text-decoration: none;
+    color: #fff;
+}
+button{
+    color: #fff;
+    text-transform: capitalize;
+    padding: 5px;
+    background: #7287d2;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.4s ease 0s;
+}
+button:hover{
+    background-color: rgba(0, 136, 190, 0.8);
+    text-transform: uppercase;
+}
+body .text2{
+    font-style: italic;
+    font-size: 40px;
+    color: #fff;
+}
+body .info{
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    padding: 50px 20px;
+    border-color: #fff;
+    border-radius: 10px;
+    font-family: 'montserrat',sans-serif;
+    font-weight: 10px;
+    background-position: center;
+}
+body .content h3{
+    font-size: 80px;
+    font-weight: 30rem;
+}
+.content span{
+    color: #276be1;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 50%;
+}
+.content p{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px){
+    
+}
+@media (max-width:770px){
+    
+}

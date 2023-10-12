@@ -1,0 +1,37 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@500&family=Roboto&family=Roboto+Mono:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 3.4px;
+    top: 10px;
+    justify-content: center;
+}
+body{
+    background-image: url(bus2.jpg);
+    justify-content: center;
+    width: min-content;
+    align-items: center;
+}
+.container{
+    display: flex;
+    background: transparent;
+    padding: 8px 10px;
+    margin: 100px;
+    border-radius: 50px;
+    backdrop-filter: blur(15px);
+}
+.container .title{
+    font-family: 'roboto',sans-serif;
+    font-size: 50px;
+    color: #f5f3f3;
+}
+.container .form-group{
+    border: #000;
+    font-family: 'roboto', sans-serif;
+    color: #f5f3f3 ;
+}
+.container #input{
+    border: none;
+    border-radius: 10px;
+}

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins', sans-serif;
+    
+}
+body{
+    display: flex;
+    height: 670px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    background-image: url(bus2.jpg);
+}
+.container{
+    align-items: center;
+    margin: 10px;
+    max-width: 60%;
+    width: 30%;
+    height: 50%;
+    background: #6296a7;
+    background: rgba(57, 55, 55, 0.5);
+    padding: 4px 10px;
+    border-radius: 10px;
+    position: inherit;
+}
+.container .title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    position: relative;
+}
+.form-group{
+    display: flex;
+    padding: 0.1px;
+    width: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.form-group input{
+    height: px;
+    width: 200px;
+    padding: 0.1px;
+    border-radius: 6px;
+    display: flex;
+}
+label{
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 8px;
+}

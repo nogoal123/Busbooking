@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="sheet.css">
+<title>Booking</title>
+</head>
+<body>
+    <div class="container">
+        <center>
+        <div class="title"><h2>Booking</h2></div>
+        <form action="booking.php" method="post">
+            
+            <div class="form-group">
+                <br>
+                <label for="image">Passport Size</label>
+                <br>
+                <input type="file" name="image" accept="image/*" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Full Name:</label>
+                <br>
+                <input type="text" name="fullname" placeholder="Full Name">
+            </div>
+        
+            <div class="form-group">
+                <label>Gender</label>
+                <br>
+                <font size="1"><input type="radio"  name="gender">M
+                <input type="radio"  name="gender">F</font>
+            </div>
+            <div class="form-group">
+                <label>Address</label>
+                <br>
+                <input type="text" name="address" placeholder="Address">
+            </div>
+            <div class="form-group">
+                <label>Mobile No</label>
+                <br>
+                <input type="text" name="phone" placeholder="Phone number">
+            </div>
+            <div class="form-group">
+                <label>Department</label><br>
+                <input type="text" name="dpt" placeholder="Department">
+            </div>
+            <div class="form-group">
+                <br>
+                <input type="submit" value="Register" name="submit">           
+            </div>
+        </center>
+        </form> 
+    </div>
+</body>
+</html>
